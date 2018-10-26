@@ -1,0 +1,4 @@
+.vscode/*  
+dataset/*
+!.gitkeep
+/trained_data.dat
