@@ -141,12 +141,12 @@ if __name__ == "__main__":
                         sound_alarm("alarm.wav")
                         
                     # draw an alarm on the frame
-                    cv2.putText(frame, "NGU GAT!!", (200, 200),
+                    cv2.putText(frame, "DROWSY!!!", (200, 100),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 0), 2)
             else:
                 COUNTER = 0
                 ALARM_ON = False
-                cv2.putText(frame, "TINH TAO", (10, 30),
+                cv2.putText(frame, "Opening", (10, 30),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 0), 2)
 
         # show the frame
